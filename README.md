@@ -1,6 +1,6 @@
-# 🧠 PromptEval – LLM Prompt Evaluation Framework
+# 🧠 Prompt Evaluation Framework
 
-PromptEval is a framework for evaluating and refining prompts using both **automated metrics** (BLEU, F1) and **LLM-assisted evaluation (ChatGPT)**. It helps identify weak prompts, generate improved versions, and visualize the results in a dashboard.
+Prompt Evaluation framework for evaluating and refining prompts using both **automated metrics** (BLEU, F1) and **LLM-assisted evaluation (ChatGPT)**. It helps identify weak prompts, generate improved versions, and visualize the results in a dashboard.
 
 ---
 
@@ -54,11 +54,6 @@ Prompt_Evaluation_Framework/
 ## ⚙️ Installation
 
 ```bash
-# Clone repository
-git clone https://github.com/your-org/prompt-eval.git
-cd prompt-eval
-
-
 # Install dependencies
 pip install -r requirements.txt
 ```
