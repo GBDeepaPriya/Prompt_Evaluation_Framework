@@ -1,0 +1,34 @@
+- prompt_id: QA_001
+  text: "What is the capital of France?"
+  intent: "Q&A"
+  strategy: "zero-shot"
+  complexity: "simple"
+  reference: "Paris"
+
+- prompt_id: SUM_001
+  text: "Summarize the article: The solar system consists of..."
+  intent: "summarization"
+  strategy: "few-shot"
+  complexity: "compound"
+  reference: "The solar system includes the Sun, eight planets, dwarf planets like Pluto and Eris, and smaller bodies such as moons, asteroids, comets, and Kuiper Belt objects."
+
+- prompt_id: CODE_001
+  text: "Write a Python function to check if a number is prime."
+  intent: "code generation"
+  strategy: "zero-shot"
+  complexity: "simple"
+  reference: |
+    def is_prime(n):
+        if n <= 1:
+            return False
+        for i in range(2, int(n ** 0.5) + 1):
+            if n % i == 0:
+                return False
+        return True
+
+- prompt_id: CREATIVE_001
+  text: "Write a short story about a time-traveling detective."
+  intent: "creative writing"
+  strategy: "chain-of-thought"
+  complexity: "compound"
+  reference: "A time-traveling detective uses a mysterious device to go back to 1923 and solve the cold case of a stolen diamond, uncovering political corruption and a larger conspiracy."

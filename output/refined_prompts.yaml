@@ -1,0 +1,4 @@
+- original_prompt: 'Summarize the article: The solar system consists of...'
+  refined_prompt: Please provide a brief summary of the article about the solar system,
+    assuming it explores a specific aspect or feature of our solar system (e.g., planetary
+    formation, unique celestial bodies, or a particular astronomical event).

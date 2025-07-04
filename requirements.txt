@@ -1,0 +1,6 @@
+streamlit
+pandas
+pyyaml
+requests
+scikit-learn
+openai 
