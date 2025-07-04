@@ -1,10 +1,10 @@
 import requests
 
 # ✅ Your OpenRouter API key (starts with `org-` or `sk-or-`)
-API_KEY = "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"
+API_KEY = "YOUR OPENROUTER API KEY"
 
 # ✅ Your model name
-MODEL = "meta-llama/llama-3-70b-instruct"  # Or another model from https://openrouter.ai/docs#models
+MODEL = "openai/gpt-4o"  # Or another model from https://openrouter.ai/docs#models
 
 def generate_response(prompt_text: str, model: str = MODEL) -> str:
     url = "https://openrouter.ai/api/v1/chat/completions"
